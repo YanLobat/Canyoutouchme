@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head lang="en" xml:lang="en">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>Can you touch me?</title>
+  <link rel="stylesheet" href="http://canyoutouch.me:1337/site.css" type="text/css"/>
+  <link href='http://fonts.googleapis.com/css?family=PT+Mono&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="http://canyoutouch.me:1337/jquery.touchSwipe.js"></script>
+  <script type="text/javascript" src="http://canyoutouch.me:1337/mobile.js"></script>
+</head>
+
+<body id="mobile">
+  <p class="name">Вводи код</p>
+  <input name="code" type="text" maxlength="5">
+  <p class="name">и прикоснись ко мне</p>
+  <img class="go" src="http://dev.plus8.pro/swipe/fingerprint.svg">
+  <div class="tap">
+      <a class="f"></a>
+      <a class="s"></a>
+      <a class="t"></a>
+      <a class="fo"></a>
+  </div>
+  <div id="test">
+    <div class="line">
+      <div class="circle" id="first"></div>
+    </div>
+    <div class="pinch_line f">
+      <div class="circle" id="first"></div>
+    </div>
+    <div class="pinch_line s">
+      <div class="circle" id="second"></div>
+    </div>
+    <div class="dbl_line f">
+      <div class="circle" id="first"></div>
+    </div>
+    <div class="dbl_line s">
+      <div class="circle" id="second"></div>
+    </div>
+  </div>
+</body>
+</html>
